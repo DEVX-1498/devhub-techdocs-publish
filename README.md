@@ -1,4 +1,6 @@
-[![Coverage Status](https://coveralls.io/repos/github/DEVX-1498/devhub-techdocs-publish/badge.svg)](https://coveralls.io/github/DEVX-1498/devhub-techdocs-publish)
+[![Coverage Status](https://coveralls.io/repos/github/devx-1498/devhub-techdocs-publish/badge.svg)](https://coveralls.io/github/DEVX-1498/devhub-techdocs-publish)
+
+[![Test](https://github.com/devx-1498/devhub-techdocs-publish/actions/workflows/test.yml/badge.svg)](https://github.com/devx-1498/devhub-techdocs-publish/actions/workflows/test.yml)
 
 # License
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
