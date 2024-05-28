@@ -27,7 +27,7 @@ jobs:
 
       - name: Test with pytest
         run: |
-          pytest --cov-config=./.github/workflows/.coveragerc  --cov-report lcov:cov.info --cov=mkpatcher_scripts
+          pytest --cov-config=.coveragerc --cov-report lcov:cov.info --cov=mkpatcher_scripts
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2
