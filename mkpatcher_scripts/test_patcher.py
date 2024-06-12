@@ -84,3 +84,12 @@ something:
   result = patch(input.splitlines(True))
   result = ''.join(result)
   assert result == expected_result
+
+def test_to_trigger_sonarcloud():
+  input = """no bullets
+just a sentence
+``` 
+"""
+  result = patch(input.splitlines(True))
+  result = ''.join(result)
+  assert result == input
