@@ -27,8 +27,8 @@ then
 fi
 
 # read the entity name and kind from the catalog-info file so we don't need to have these as inputs or vars.
-ENTITY_NAME=$(cat "$CATALOG_FILE" | yq -r .metadata.name)
-ENTITY_KIND=$(cat "$CATALOG_FILE" | yq -r .kind)
+ENTITY_NAME=$(cat "$CATALOG_FILE" | yq -r '.metadata.name // "Unknown"')
+ENTITY_KIND=$(cat "$CATALOG_FILE" | yq -r '.kind // "Component"')
 
 # map the local variables from the inputs provided by the Action
 ENTITY_NAMESPACE="default"
