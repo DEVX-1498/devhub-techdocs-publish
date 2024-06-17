@@ -1,4 +1,4 @@
-FROM node:20-bookworm
+FROM node:22.2-bookworm-slim
 
 # update image and create a virtualenv after installing required, missing python dependencies
 RUN  apt-get update &&  apt-get install python3-pip python3.11-venv jq -y && python3 -m venv /.virtualenvs/techdocs
