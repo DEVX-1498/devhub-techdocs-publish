@@ -44,3 +44,14 @@ def patch(lines):
 		new_lines.append(new_line)
 	return new_lines
 
+def fizz_buzz(num):
+	result = ""
+	if num % 3 == 0:
+		result = result + "Fizz"
+	if num % 4 == 0:
+		result = result + "Buzz"
+	if num % 4 != 0 and num % 3 != 0:
+		result = result + str(num)
+	return result
+	
+
