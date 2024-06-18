@@ -2,6 +2,8 @@
 
 [![Test](https://github.com/devx-1498/devhub-techdocs-publish/actions/workflows/test.yml/badge.svg)](https://github.com/devx-1498/devhub-techdocs-publish/actions/workflows/test.yml)
 
+TEST TEST TEST
+
 # License
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
 
